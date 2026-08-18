@@ -5,4 +5,5 @@ _site/
 _drafts/
 vendor/
 Gemfile.lock
+.local/
 .DS_Store
