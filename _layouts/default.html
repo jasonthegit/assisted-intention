@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    {% feed_meta %}
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  </head>
+  <body>
+    <div class="site-shell">
+      <aside class="site-sidebar">
+        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <p class="site-description">{{ site.description }}</p>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="{{ '/' | relative_url }}">Posts</a>
+          <a href="{{ '/archive/' | relative_url }}">Archive</a>
+          <a href="{{ '/about/' | relative_url }}">About</a>
+          <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+        </nav>
+      </aside>
+
+      <main class="site-main">
+        {{ content }}
+      </main>
+    </div>
+  </body>
+</html>

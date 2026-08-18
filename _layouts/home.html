@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <img src="{{ '/assets/images/header/assisted-intention-header.png' | relative_url }}" alt="">
+  <div class="hero-copy">
+    <p class="eyebrow">Creative AI, teaching, and visual communications</p>
+    <h1>Assisted Intention</h1>
+  </div>
+</section>
+
+<section class="post-list" aria-label="Recent posts">
+  {% for post in site.posts %}
+    <article class="post-card">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      {% if post.excerpt %}
+        <p>{{ post.excerpt | strip_html | truncatewords: 38 }}</p>
+      {% endif %}
+    </article>
+  {% else %}
+    <article class="post-card">
+      <time>Drafting</time>
+      <h2>Posts are being prepared.</h2>
+      <p>Approved entries will appear here after they are moved from the private log into the public Jekyll site.</p>
+    </article>
+  {% endfor %}
+</section>

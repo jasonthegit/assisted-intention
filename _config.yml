@@ -1,0 +1,31 @@
+title: Assisted Intention
+description: "A running account of creative AI, teaching, and visual communications practice."
+url: "https://assistedintention.jasonteaches.com"
+baseurl: ""
+timezone: America/New_York
+
+author:
+  name: Jason Porter
+
+permalink: /:year/:month/:day/:title/
+
+theme: null
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
