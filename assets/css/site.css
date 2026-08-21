@@ -165,7 +165,7 @@ h2 {
 
 .post-content img {
   margin: 1.75rem 0 0.5rem;
-  border: 1px solid var(--line);
+  border: 0;
 }
 
 .image-caption {
@@ -175,6 +175,20 @@ h2 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 0.9rem;
   line-height: 1.45;
+}
+
+.image-triptych {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin: 1.75rem 0;
+}
+
+.image-triptych img {
+  flex: 1 1 0;
+  width: 0;
+  height: auto;
+  margin: 0;
 }
 
 .post-header {
@@ -214,5 +228,14 @@ pre {
 
   .site-main {
     padding: 1rem;
+  }
+
+  .image-triptych {
+    display: block;
+  }
+
+  .image-triptych img {
+    width: 100%;
+    margin-bottom: 0.75rem;
   }
 }
