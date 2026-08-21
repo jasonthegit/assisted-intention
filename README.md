@@ -29,7 +29,7 @@ The local preview normally opens at `http://localhost:4000`.
 The intended custom domain is:
 
 ```text
-assistedintention.jasonteaches.com
+ai.jasonteaches.com
 ```
 
 The `CNAME` file in this folder tells GitHub Pages which custom domain to use. Cloudflare also needs a DNS record pointing that subdomain to the GitHub Pages site.
