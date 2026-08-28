@@ -76,9 +76,10 @@ That gave us a way into visual AI.
 
 I showed them this cat.
 
-![An AI-generated orange cat sitting in sunlight by a window]({{ '/assets/images/posts/2026-08-25-using-it-scared-of-it/generic-ai-cat.png' | relative_url }})
-
-<span class="image-caption">Generated from the prompt "generate an image of a cat," with no other specifications. I wanted the most vanilla, generic thing the tool would make when I removed myself from the decision-making.</span>
+<figure class="image-figure-small">
+  <img src="{{ '/assets/images/posts/2026-08-25-using-it-scared-of-it/generic-ai-cat.png' | relative_url }}" alt="An AI-generated orange cat sitting in sunlight by a window">
+  <figcaption>Generated from the prompt "generate an image of a cat," with no other specifications. I wanted the most vanilla, generic thing the tool would make when I removed myself from the decision-making.</figcaption>
+</figure>
 
 They all immediately said it was generated.
 

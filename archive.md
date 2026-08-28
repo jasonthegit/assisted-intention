@@ -9,6 +9,6 @@ permalink: /archive/
 ## {{ year.name }}
 
 {% for post in year.items %}
-- [{{ post.title }}]({{ post.url | relative_url }}) <span class="muted">{{ post.date | date: "%B %-d, %Y" }}</span>
+- [{{ post.title }}]({{ post.url | relative_url }}) <span class="muted">{{ post.date | date: "%-m.%-d.%y" }}</span>
 {% endfor %}
 {% endfor %}

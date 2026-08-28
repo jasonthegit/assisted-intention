@@ -21,9 +21,10 @@ What worked well was the speed of moving from a teaching problem to a usable cla
 
 What did not work automatically was judgment. I still had to decide when the language sounded right, when the interface felt too cluttered, and when the tool was drifting away from the classroom experience I wanted to preserve.
 
-![J329 Mad-Lib Mixer screenshot]({{ '/assets/images/posts/2026-08-18-rubrics-and-classroom-tools/madlib-mixer.png' | relative_url }})
-
-<span class="image-caption">The Mad-Lib Mixer after the classroom-tool iteration: option banks at the top, one large mix button, color-coded generated combinations underneath, and the tool still driven by an editable data file.</span>
+<figure>
+  <img src="{{ '/assets/images/posts/2026-08-18-rubrics-and-classroom-tools/madlib-mixer.png' | relative_url }}" alt="J329 Mad-Lib Mixer screenshot">
+  <figcaption>The Mad-Lib Mixer after the classroom-tool iteration: option banks at the top, one large mix button, color-coded generated combinations underneath, and the tool still driven by an editable data file.</figcaption>
+</figure>
 
 **Here's the best part: the whole process took _23 minutes_ from start to finish.**
 
