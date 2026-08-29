@@ -263,6 +263,18 @@ h2 {
   padding-bottom: clamp(14rem, 30vw, 26rem);
 }
 
+.post-content h2 {
+  margin-top: 3rem;
+}
+
+.post-content h2::before {
+  content: "";
+  display: block;
+  width: 75%;
+  border-top: 1px solid var(--line);
+  margin: 0 0 1.35rem;
+}
+
 .page-content {
   width: min(100% - 3rem, 860px);
   margin: clamp(3rem, 6vw, 5rem) auto 0;
@@ -304,6 +316,54 @@ h2 {
 
 .image-caption {
   margin: 0 0 1.75rem;
+}
+
+.prompt-callout {
+  margin: 1.5rem 0;
+  padding: 0.95rem 1rem 1rem 1.1rem;
+  background: rgba(243, 199, 104, 0.22);
+  border-left: 3px solid var(--accent);
+  color: var(--sidebar-soft);
+}
+
+.prompt-callout p {
+  margin: 0;
+  color: inherit;
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+
+.prompt-callout strong {
+  color: var(--accent);
+  font-weight: 300;
+}
+
+.post-content figure.image-row {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  width: 100%;
+  margin: 1.75rem auto;
+}
+
+.post-content figure.image-row img {
+  flex: 1 1 0;
+  width: 0;
+  height: auto;
+  margin: 0;
+}
+
+.post-content figure.reference-row img {
+  aspect-ratio: 3 / 4;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.post-content figure.image-row figcaption {
+  flex: 0 0 100%;
+  margin-top: -0.25rem;
 }
 
 .image-triptych {
@@ -393,8 +453,13 @@ pre {
     display: block;
   }
 
-  .image-triptych img {
+  .image-triptych img,
+  .post-content figure.image-row img {
     width: 100%;
     margin-bottom: 0.75rem;
+  }
+
+  .post-content figure.image-row {
+    display: block;
   }
 }
