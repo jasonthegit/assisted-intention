@@ -7,9 +7,13 @@ excerpt: "A small video downloader, a recurring teaching frustration, and the th
 
 I started building <em>Save It!</em> because I kept running into the same annoying problem: students would send me links to their work, and later I’d want to download a copy for teaching, documentation, or marketing. Getting a student to send the actual video file after the fact was often a pain. The link would work, but the file would be somewhere else, or they’d forget, or I’d have to ask again. I wanted a small tool that would let me paste a link, click a button, and get a video file I knew would work on my computer.
 
-The first version came together very quickly—maybe 20 or 25 minutes. That part was exciting. I had an idea, described it, and suddenly I had a working prototype. It felt like adding another instrument to a one-person band. I could imagine the tool I wanted, and the AI assistant could help me build the parts I didn’t know how to build.
+The first version came together very quickly—maybe 20 or 25 minutes. That part was exciting. I had an idea, described it, and suddenly I had a working prototype. It felt like adding another instrument to a one-person band. I could imagine the tool I wanted, and the AI assistant could help me build the parts I didn’t know how to build. But that metaphor cuts both ways.
 
-But that metaphor cuts both ways. If I add a new instrument to the band, I still have to learn enough about that instrument to make music with it. That was the part I hadn’t fully anticipated.
+<blockquote class="pull-quote">
+  If I add a new instrument to the band, I still have to learn enough about the instrument to make music with it.
+</blockquote>
+
+That was the part I hadn’t fully anticipated.
 
 I know exactly what I want in some areas. When it comes to visual design, I can be extremely specific. I know the colors, typography, spacing, proportions, corner radii, and how a mockup is supposed to translate into an interface. When I supplied the <em>Save It!</em> mockup, I expected it to be treated as a specification. Instead, the design drifted through several interpretations before it got close to what I had actually shown. Elements were added or rearranged, the interface carried extra space, the typography was approximated instead of matched, the logo and icon assets were handled in ways I hadn’t asked for, and the overall layout kept getting adjusted instead of simply being reproduced. I had to keep narrowing the gap between “this is the direction” and “this is the exact reference.”
 

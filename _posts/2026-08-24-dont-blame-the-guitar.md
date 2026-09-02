@@ -77,7 +77,9 @@ That’s the cycle.
 
 The ’70s film school kids broke open Hollywood. Then Hollywood learned the language and turned it into product. Four-Quadrant marketing. Mini-Malls. Megaplexes. Then Kevin Smith, Tarantino, Soderbergh, all these people come along with cheaper tools and different taste and say, *fuck it*, pick up a camera and make a movie.
 
-Every creative revolution eventually becomes a production pipeline.
+<blockquote class="pull-quote">
+  Every creative revolution eventually becomes a production pipeline.
+</blockquote>
 
 Then somebody finds the crack.
 

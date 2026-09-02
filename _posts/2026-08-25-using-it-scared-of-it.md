@@ -2,7 +2,7 @@
 layout: post
 title: "Using It, Scared of It"
 date: 2026-08-25
-excerpt: "The fears my students named about AI were not really separate fears. They were all circling the same question: where are you in the process?"
+excerpt: "The fears my students named about AI weren't really separate fears, but all circled around the same question: where am I in the process?"
 ---
 
 Before we get into prompts and tools and outputs and all of the shiny things these platforms can do, I wanted the students in my GenAI course to pause and write honestly about what they already think and feel. What comes to mind when they hear "generative AI"? Where have they seen it? What have they used it for? What do they trust it with? What do they absolutely not trust it with? How do they think it might show up in their field?
@@ -125,7 +125,9 @@ The thing underneath all of these fears was not really the tool. It was the fear
 
 That last part feels simple, but it is the whole point.
 
-If you want to define yourself apart from AI, the word is already sitting there: **you**.
+<blockquote class="pull-quote">
+  If you want to define yourself apart from AI, the word is already sitting there: you.
+</blockquote>
 
 You are the difference. Not in some inspirational poster way. In a practical way.
 

@@ -2,7 +2,7 @@
 layout: post
 title: "The Hidden Cost of Teaching Image Generation"
 date: 2026-08-25
-excerpt: "The issue isn't just whether students can make images. It's whether they can make enough images to actually learn from the process."
+excerpt: "You can't learn if the cost of exploration is more than usage limits allow."
 ---
 
 One thing I had to figure out today was the math.
@@ -23,7 +23,9 @@ For image generation, the issue is not just whether students can make images. Th
 
 I'm teaching students how to use AI tools as part of a creative process. For image generation, that means they need room to try things, revise, compare, fail, adjust language, rethink the visual direction, and try again. If every generation feels scarce, students are not going to explore. They're going to protect their quota. They'll make one or two attempts, pick the least bad version, and move on.
 
-That's not really learning the tool. That's rationing.
+<blockquote class="pull-quote">
+  That's not learning the tool. That's rationing.
+</blockquote>
 
 The current ChatGPT Edu setup gives undergraduate students 60 credits per month, plus 3 image generations per rolling 24-hour period before image generation starts using credits. After that, image generations cost 5 credits each.
 
@@ -75,7 +77,7 @@ At 5 credits each:
 
 Students would need around 285 credits beyond the free daily images just to make the planned work feel possible. That does not include extra in-class experiments, failed attempts, weird outputs, or the normal "wait, that's not what I meant" part of learning how to control an image model.
 
-This is where the hidden cost shows up. It's not just that the tool costs money. It's that the cost structure changes the way students behave.
+This is where the hidden cost shows up. The tool costs money, sure, but the bigger problem is that the cost structure changes the way students behave.
 
 If students think they only have a few chances, they will stop iterating. They will write safer prompts. They will avoid risks. They will avoid redoing work even when they know the image is not communicating the idea. And that is exactly the opposite of what I want them to learn.
 
