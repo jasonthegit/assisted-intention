@@ -14,4 +14,4 @@ So when I'm writing about AI here, I'm not really writing about replacement or a
 
 The human part is still the connections. Communication is about knowing who your audience is and making something for them. That means lived experience, personal stories, taste, visual sensitivity, timing, and all the semiotic stuff that makes a thing land with a specific group of people. AI, on its own, tends to make the middle. Humans make things weird, specific, imperfect, and less boring.
 
-This site is me trying to track that in practice. Sometimes that means graphic design, photography, video, editing, UI/UX, or app development. Sometimes it means the less glamorous parts of teaching, like rubrics, classroom tools, course prep, and organizing ideas well enough to use them. The through line is the same: what happens when AI is useful, but the intention still has to come from me?
+This site is me trying to track that in practice.
