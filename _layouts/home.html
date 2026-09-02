@@ -10,8 +10,10 @@ layout: default
   </div>
 </section>
 
+{% assign homepage_posts = paginator.posts | default: site.posts %}
+
 <section class="post-list" aria-label="Recent posts">
-  {% for post in site.posts %}
+  {% for post in homepage_posts %}
     <article class="post-card">
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
       <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
@@ -26,4 +28,26 @@ layout: default
       <p>Approved entries will appear here after they are moved from the private log into the public Jekyll site.</p>
     </article>
   {% endfor %}
+
+  {% if paginator.total_pages > 1 %}
+    <nav class="pagination" aria-label="Post pages">
+      {% if paginator.page == 1 %}
+        <a class="pagination-more" href="{{ paginator.next_page_path | relative_url }}">More Posts <span aria-hidden="true">›</span></a>
+      {% else %}
+        {% if paginator.previous_page %}
+          <a class="pagination-link" href="{{ paginator.previous_page_path | relative_url }}" aria-label="Newer posts">‹</a>
+        {% else %}
+          <span class="pagination-link pagination-link-disabled" aria-hidden="true">‹</span>
+        {% endif %}
+
+        <span class="pagination-current" aria-current="page">{{ paginator.page }} / {{ paginator.total_pages }}</span>
+
+        {% if paginator.next_page %}
+          <a class="pagination-link" href="{{ paginator.next_page_path | relative_url }}" aria-label="Older posts">›</a>
+        {% else %}
+          <span class="pagination-link pagination-link-disabled" aria-hidden="true">›</span>
+        {% endif %}
+      {% endif %}
+    </nav>
+  {% endif %}
 </section>

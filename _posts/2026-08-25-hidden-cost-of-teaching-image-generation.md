@@ -5,9 +5,7 @@ date: 2026-08-25
 excerpt: "You can't learn if the cost of exploration is more than usage limits allow."
 ---
 
-One thing I had to figure out today was the math.
-
-How many images can a student generate before they hit a limit? How many attempts does an assignment actually require? How many failed versions should I assume they need before they get to something usable? How many days do they realistically have to spread that work out? And, most importantly, does the limit make them afraid to experiment?
+One thing I had to figure out today was the math. How many images can a student generate before they hit a limit? How many attempts does an assignment actually require? How many failed versions should I assume they need before they get to something usable? How many days do they realistically have to spread that work out? And, most importantly, does the limit make them afraid to experiment?
 
 That last one is the real issue.
 

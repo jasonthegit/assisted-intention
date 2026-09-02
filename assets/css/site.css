@@ -55,11 +55,22 @@ img {
 .site-nav-wrap {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
+  gap: 1.5rem;
   min-height: 2.55rem;
   width: min(100%, 1120px);
   margin: 0 auto;
   padding: 0.6rem clamp(1.25rem, 3vw, 2rem);
+}
+
+.site-parent-link {
+  color: var(--paper);
+  font-family: var(--font-body);
+  font-size: 1.02rem;
+  font-weight: 300;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 .site-nav {
@@ -72,12 +83,15 @@ img {
   line-height: 1;
 }
 
+.site-parent-link,
 .site-nav a,
 .mobile-nav a {
   color: var(--paper);
   text-decoration: none;
 }
 
+.site-parent-link:hover,
+.site-parent-link:focus,
 .site-nav a:hover,
 .site-nav a:focus,
 .mobile-nav a:hover,
@@ -245,6 +259,58 @@ h2 {
 
 .post-card p {
   margin: 0.2rem 0 0;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85rem;
+  margin: -0.25rem auto 0;
+  color: var(--sidebar-soft);
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  font-weight: 300;
+}
+
+.pagination-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  color: var(--muted);
+  font-size: 1.45rem;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.pagination-link:hover,
+.pagination-link:focus {
+  color: var(--accent);
+}
+
+.pagination-link-disabled {
+  color: rgba(84, 82, 48, 0.35);
+}
+
+.pagination-more {
+  color: var(--muted);
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  font-weight: 300;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.pagination-more:hover,
+.pagination-more:focus {
+  color: var(--accent);
+}
+
+.pagination-current {
+  min-width: 3.5rem;
+  text-align: center;
 }
 
 .post-content > p:first-of-type::first-letter {
@@ -435,9 +501,50 @@ h2 {
 }
 
 .post-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
   margin-top: 2rem;
   padding-top: 1rem;
   border-top: 1px solid var(--line);
+}
+
+.post-share-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-width: 2rem;
+  height: 2rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font: inherit;
+}
+
+.post-share-button:hover,
+.post-share-button:focus {
+  color: var(--accent);
+}
+
+.post-share-button svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.post-share-status {
+  color: var(--muted);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 300;
 }
 
 pre {

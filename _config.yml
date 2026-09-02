@@ -13,8 +13,12 @@ theme: null
 
 plugins:
   - jekyll-feed
+  - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
+
+paginate: 6
+paginate_path: "/page/:num/"
 
 defaults:
   - scope:
