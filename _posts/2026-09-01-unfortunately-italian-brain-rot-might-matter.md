@@ -30,7 +30,9 @@ We ask AI to make a photograph. An essay. A song. A movie trailer. A slide deck.
 
 And that makes sense. I don’t mean that as an insult. We understand new things through old things. We use what we know to make sense of what we don’t. That’s not just design. That’s learning. That’s culture. That’s meaning-making. That’s how we keep from staring at something new and having our brains fully reject it.
 
-We recreate the past while we learn how to make the future.
+<blockquote class="pull-quote">
+  We recreate the past while we learn how to make the future.
+</blockquote>
 
 Early film did this. At first, film was amazing because it moved. Workers leaving a factory. A train arriving. A stage act recorded by a camera. A magic trick. A performance. It was enough that the thing existed. Look, the world is moving on a screen.
 
