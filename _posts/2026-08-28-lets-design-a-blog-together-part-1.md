@@ -161,3 +161,5 @@ The final step was bringing the image into Photoshop to expand the left and righ
 </figure>
 
 With that I had a final image! Next I'll dive into using this image to drive the redesign of the rest of the blog.
+
+[Part 2: redesigning the rest of the blog]({{ '/2026/09/03/lets-design-a-blog-together-part-2/' | relative_url }})
