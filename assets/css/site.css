@@ -367,6 +367,10 @@ h2 {
   border: 0;
 }
 
+.post-content figure.image-stroke img {
+  border: 1px solid var(--line);
+}
+
 .post-content iframe {
   display: block;
   max-width: calc(100% - var(--post-media-inset));
@@ -458,6 +462,32 @@ h2 {
 .post-content figure.image-row figcaption {
   flex: 0 0 100%;
   margin-top: -0.25rem;
+}
+
+.post-content figure.flower-mosaic {
+  width: calc(100% - var(--post-media-inset));
+  max-width: calc(100% - var(--post-media-inset));
+}
+
+.flower-mosaic-row {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0 0 0.75rem;
+}
+
+.flower-mosaic-row-three {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.flower-mosaic-row-two {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.flower-mosaic-row img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
 }
 
 .media-embed {
