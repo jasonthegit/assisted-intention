@@ -2,7 +2,7 @@
 layout: post
 title: "Let's Design a Blog Together, Part 2"
 date: 2026-09-03
-excerpt: "The design work moved from AI generation into layout decisions, palette choices, Photoshop mockups, and the small bits of friction that actually mattered."
+excerpt: "The design work moved from AI generation into layout decisions, palette choices, Photoshop mockups, and intentional friction."
 ---
 
 [Part 1]({{ '/2026/08/28/lets-design-a-blog-together-part-1/' | relative_url }}) started with the header image. The blog itself is already part of a larger AI-assisted workflow. I had been working through how to make a blog that would not become another thing I forget to update, because let’s be honest, I cut my teeth on never updating my Zenga, then Friendster, then MySpace, and, well… you can see the pattern, right? I wanted something low friction. If I'm already using AI to help me think through notes, drafts, and reflections, then it makes sense to also use AI to help with some of the mechanics of maintaining the site.
