@@ -257,6 +257,11 @@ h2 {
   line-height: 1.5;
 }
 
+.post-content strong {
+  color: var(--accent);
+  font-weight: 700;
+}
+
 .post-card p {
   margin: 0.2rem 0 0;
 }
