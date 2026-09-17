@@ -199,8 +199,6 @@ That was a complicated, multi-step process just like the Pattern Library task, s
 
 The difference seems to be judgment. Updating the websites had complicated but verifiable steps. Pattern Library required the model to decide what mattered most about each student's work, how severe the issue was, and what that beginner most needed to hear next.
 
-Doing every webpage operation in one giant batch worked. Looking at every design in one giant batch and writing the judgment later didn't.
-
 <blockquote class="pull-quote">
   Doing every webpage operation in one giant batch worked. Looking at every design in one giant batch and writing the judgment later didn't.
 </blockquote>
