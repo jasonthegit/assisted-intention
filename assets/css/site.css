@@ -582,6 +582,151 @@ h2 {
   font-weight: 300;
 }
 
+.post-content details.evidence-disclosure {
+  width: calc(100% - var(--post-media-inset));
+  margin: 1.75rem auto;
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.post-content details.evidence-disclosure > summary {
+  display: block;
+  color: var(--sidebar-soft);
+  cursor: pointer;
+  list-style: none;
+}
+
+.post-content details.evidence-disclosure > summary::-webkit-details-marker {
+  display: none;
+}
+
+.evidence-summary-preview {
+  display: -webkit-box;
+  overflow: hidden;
+  font-weight: 300;
+  line-height: 1.55;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+
+.evidence-summary-action {
+  display: block;
+  margin-top: 0.6rem;
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-align: right;
+}
+
+.evidence-summary-action .when-closed::after {
+  content: " \2192";
+}
+
+.evidence-summary-action .when-open {
+  display: none;
+}
+
+.post-content details.evidence-disclosure[open] .evidence-summary-preview,
+.post-content details.evidence-disclosure[open] .evidence-summary-action .when-closed {
+  display: none;
+}
+
+.post-content details.evidence-disclosure[open] .evidence-summary-action .when-open {
+  display: inline;
+}
+
+.post-content details.evidence-disclosure[open] > summary {
+  margin-bottom: 1.25rem;
+}
+
+.evidence-layout,
+.critique-comparison {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.post-content .evidence-standalone {
+  width: calc(100% - var(--post-media-inset));
+  margin: 1.75rem auto;
+}
+
+.evidence-layout figure {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+}
+
+.evidence-copy {
+  overflow-y: auto;
+  aspect-ratio: 1994 / 1544;
+  padding: 0.85rem 1rem 0.85rem 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  overscroll-behavior: contain;
+  scrollbar-color: var(--accent) rgba(243, 199, 104, 0.2);
+  scrollbar-gutter: stable;
+}
+
+.evidence-copy:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.evidence-scroll-hint {
+  position: sticky;
+  top: -0.85rem;
+  z-index: 1;
+  margin: -0.85rem 0 0.85rem;
+  padding: 0.45rem 0;
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-align: right;
+}
+
+.evidence-copy::-webkit-scrollbar {
+  width: 8px;
+}
+
+.evidence-copy::-webkit-scrollbar-track {
+  background: rgba(243, 199, 104, 0.2);
+}
+
+.evidence-copy::-webkit-scrollbar-thumb {
+  background: var(--accent);
+}
+
+.evidence-copy p:first-child,
+.critique-panel > :first-child {
+  margin-top: 0;
+}
+
+.evidence-copy p:last-child,
+.critique-panel > :last-child {
+  margin-bottom: 0;
+}
+
+.critique-panel + .critique-panel {
+  padding-left: 1.5rem;
+  border-left: 1px solid var(--line);
+}
+
+.critique-panel h3 {
+  margin-top: 0;
+  color: var(--accent-dark);
+  font-size: 1.15rem;
+}
+
+.critique-panel blockquote {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 pre {
   overflow-x: auto;
   padding: 1rem;
@@ -649,5 +794,17 @@ pre {
 
   .post-content figure.image-row {
     display: block;
+  }
+
+  .evidence-layout,
+  .critique-comparison {
+    grid-template-columns: 1fr;
+  }
+
+  .critique-panel + .critique-panel {
+    padding-top: 1.25rem;
+    padding-left: 0;
+    border-top: 1px solid var(--line);
+    border-left: 0;
   }
 }
