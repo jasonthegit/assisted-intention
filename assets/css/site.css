@@ -262,6 +262,32 @@ h2 {
   font-weight: 700;
 }
 
+.post-content .workflow-step-heading {
+  margin: 1.75rem 0 0.55rem;
+  color: var(--accent);
+  font-family: var(--font-body);
+  font-size: clamp(1.3rem, 2vw, 1.55rem);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.post-content .workflow-instructions {
+  margin: 1.5rem 0 2rem;
+  padding: 1.25rem 1.5rem 1.4rem;
+  background: rgba(243, 199, 104, 0.5);
+  border: 1px solid var(--accent);
+}
+
+.post-content .workflow-instructions .workflow-step-heading:first-child {
+  margin-top: 0;
+}
+
+.post-content .workflow-instructions > :last-child {
+  margin-bottom: 0;
+}
+
 .post-card p {
   margin: 0.2rem 0 0;
 }
